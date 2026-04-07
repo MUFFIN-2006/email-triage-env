@@ -1,0 +1,42 @@
+[
+  {
+    "name": "urgent_keyword",
+    "category": "Urgent",
+    "priority": 10,
+    "conditions": [
+      {"field": "subject", "contains": ["urgent", "asap", "critical", "emergency"]}
+    ]
+  },
+  {
+    "name": "server_down",
+    "category": "Urgent",
+    "priority": 10,
+    "conditions": [
+      {"field": "body", "contains": ["server is down", "outage", "not responding"]}
+    ]
+  },
+  {
+    "name": "support_request",
+    "category": "Support",
+    "priority": 5,
+    "conditions": [
+      {"field": "subject", "contains": ["help", "issue", "problem", "error", "broken"]}
+    ]
+  },
+  {
+    "name": "billing_inquiry",
+    "category": "Billing",
+    "priority": 6,
+    "conditions": [
+      {"field": "subject", "contains": ["invoice", "payment", "billing", "charge", "refund"]}
+    ]
+  },
+  {
+    "name": "spam_indicator",
+    "category": "Spam",
+    "priority": 0,
+    "conditions": [
+      {"field": "subject", "contains": ["win", "prize", "free", "lottery", "click here"]}
+    ]
+  }
+]

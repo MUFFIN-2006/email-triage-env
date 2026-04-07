@@ -1,0 +1,32 @@
+[
+  {
+    "id": "001",
+    "subject": "URGENT: Production server is down",
+    "body": "The production server is not responding. Customers are impacted. Please fix ASAP.",
+    "sender": "ops@example.com"
+  },
+  {
+    "id": "002",
+    "subject": "Help with login issue",
+    "body": "I cannot log into my account. It says my password is incorrect.",
+    "sender": "user1@example.com"
+  },
+  {
+    "id": "003",
+    "subject": "Invoice #12345 question",
+    "body": "I have a question about the charge on my latest invoice.",
+    "sender": "customer@example.com"
+  },
+  {
+    "id": "004",
+    "subject": "You have WON a prize! Click here now",
+    "body": "Congratulations! You are our lucky winner. Click the link to claim your free prize.",
+    "sender": "promo@spam.example"
+  },
+  {
+    "id": "005",
+    "subject": "Monthly newsletter",
+    "body": "Here is this month's newsletter with updates from our team.",
+    "sender": "newsletter@example.com"
+  }
+]
