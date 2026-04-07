@@ -7,5 +7,5 @@ git commit -m "initial commit"
 git branch -M main
 
 # Create repo on github.com first, then:
-git remote add origin https://github.com/YOUR_USERNAME/email-triage-env.git
+git remote add origin https://github.com/muffin-2006/email-triage-env.git
 git push -u origin main
